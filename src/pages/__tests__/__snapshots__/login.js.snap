@@ -26,7 +26,7 @@ exports[`<Layout /> renders 1`] = `
                 src="test-file-stub"
                 style="margin-right: 1.5em;"
               />
-              Starter Store
+              Store
             </a>
             <div
               class="right menu"
