@@ -62,15 +62,17 @@ const AddToCart = ({productId}) => {
         error={!!error}
         onChange={handleChange}
         action={{
-          color: 'orange',
-          content: 'Add to Cart',
+          color: 'red',
+          content: 'Add item to Cart',
           icon: 'plus cart',
           onClick: handleSubmit,
           loading,
           disabled: loading,
         }}
       />
-      {error && <div style={{color: 'red', position: 'absolute'}}>{error}</div>}
+      {error && (
+        <div style={{color: 'green', position: 'absolute'}}>{error}</div>
+      )}
       <Transition duration={{hide: 500, show: 500}} visible={visible}>
         <div style={{color: 'green', position: 'absolute'}}>
           <Icon name="check" />

@@ -21,12 +21,10 @@ exports[`<Layout /> renders 1`] = `
               href="/"
             >
               <img
-                alt="I love Lamp"
-                class="ui mini image"
+                alt="MotModul"
+                class="ui medium image"
                 src="test-file-stub"
-                style="margin-right: 1.5em;"
               />
-              Store
             </a>
             <div
               class="right menu"
