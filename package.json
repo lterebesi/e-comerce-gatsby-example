@@ -18,10 +18,10 @@
     "gatsby-plugin-nprogress": "^2.7.0",
     "gatsby-plugin-offline": "^3.7.1",
     "gatsby-plugin-react-helmet": "^3.7.0",
-    "gatsby-plugin-sharp": "^2.11.2",
+    "gatsby-plugin-sharp": "^2.14.4",
     "gatsby-plugin-styled-components": "^3.7.0",
     "gatsby-source-filesystem": "^2.8.1",
-    "gatsby-transformer-sharp": "^2.9.0",
+    "gatsby-transformer-sharp": "^2.12.1",
     "is-ci-cli": "^1.1.1",
     "lodash": "^4.17.20",
     "react": "^16.14.0",
@@ -31,6 +31,7 @@
     "react-stripe-checkout": "^2.6.3",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2",
+    "sharp": "^0.27.2",
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
